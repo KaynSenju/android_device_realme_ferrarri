@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ferrarri.mk
+    $(LOCAL_DIR)/rising_ferrarri.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ferrarri-user \
-    lineage_ferrarri-userdebug \
-    lineage_ferrarri-eng
+    rising_ferrarri-user \
+    rising_ferrarri-userdebug \
+    rising_ferrarri-eng

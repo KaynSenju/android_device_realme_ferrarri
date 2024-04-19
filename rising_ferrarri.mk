@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/ferrarri/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/rising/config/rising.mk)
 
-PRODUCT_NAME := lineage_ferrarri
+PRODUCT_NAME := rising_ferrarri
 PRODUCT_DEVICE := ferrarri
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -31,3 +31,20 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := realme/RMX3301/RED8ACL1:14/UP1A.230620.001/S.14b9d95_34b46-2684b:user/release-keys
+
+# Rising flags
+RISING_MAINTAINER := "Arman-ATI"
+RISING_CHIPSET := "SM8450"
+
+# Gapps
+WITH_GMS := true
+
+# Flags
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
+TARGET_USE_GOOGLE_TELEPHONY := true
+
+# ADB root
+ALLOW_LOCAL_PROP_OVERRIDE := true
+ALLOW_ADBD_ROOT := true
