@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ferrarri.mk
+    $(LOCAL_DIR)/aosp_ferrarri.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ferrarri-user \
-    lineage_ferrarri-userdebug \
-    lineage_ferrarri-eng
+    aosp_ferrarri-user \
+    aosp_ferrarri-userdebug \
+    aosp_ferrarri-eng
