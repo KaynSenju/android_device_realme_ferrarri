@@ -246,7 +246,7 @@ static const struct effect_stream effects[] = {
         .effect_id = 0,
         .data = effect_0,
         .length = ARRAY_SIZE(effect_0),
-        .play_rate_hz = 24000,
+        .play_rate_hz = 22000,
     },
 
     {
@@ -254,7 +254,7 @@ static const struct effect_stream effects[] = {
         .effect_id = 1,
         .data = effect_1,
         .length = ARRAY_SIZE(effect_1),
-        .play_rate_hz = 24000,
+        .play_rate_hz = 22000,
     },
 
     {
@@ -262,7 +262,7 @@ static const struct effect_stream effects[] = {
         .effect_id = 2,
         .data = effect_2,
         .length = ARRAY_SIZE(effect_2),
-        .play_rate_hz = 24000,
+        .play_rate_hz = 22000,
     },
 
     {
@@ -270,7 +270,7 @@ static const struct effect_stream effects[] = {
         .effect_id = 3,
         .data = effect_3,
         .length = ARRAY_SIZE(effect_3),
-        .play_rate_hz = 24000,
+        .play_rate_hz = 22000,
     },
 
     {
@@ -278,7 +278,7 @@ static const struct effect_stream effects[] = {
         .effect_id = 4,
         .data = effect_4,
         .length = ARRAY_SIZE(effect_4),
-        .play_rate_hz = 24000,
+        .play_rate_hz = 22000,
     },
 
     {
@@ -286,6 +286,6 @@ static const struct effect_stream effects[] = {
         .effect_id = 5,
         .data = effect_3,
         .length = ARRAY_SIZE(effect_3),
-        .play_rate_hz = 24000,
+        .play_rate_hz = 22000,
     },
 };

@@ -10,7 +10,7 @@ include device/oneplus/sm8450-common/BoardConfigCommon.mk
 DEVICE_PATH := device/realme/ferrarri
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 420
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

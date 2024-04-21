@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/ferrarri/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ferrarri
+PRODUCT_NAME := aosp_ferrarri
 PRODUCT_DEVICE := ferrarri
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
