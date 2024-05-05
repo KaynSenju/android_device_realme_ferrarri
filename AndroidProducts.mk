@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ferrarri.mk
+    $(LOCAL_DIR)/voltage_ferrarri.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_ferrarri-user \
